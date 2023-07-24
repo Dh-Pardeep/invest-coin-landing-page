@@ -9,7 +9,8 @@ export default function SectionSliderOne() {
         centerMode: true,
         slidesToShow: 2.3,
         centerPadding: "60px",
-        autoplaySpeed: 3000,
+        autoplayspeed: 4000,
+        speed: 2000,
         autoplay: true,
         responsive: [
             {
