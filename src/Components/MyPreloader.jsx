@@ -1,13 +1,12 @@
 import React from "react";
 import preloder_img from "../assets/img/png/Bitcoin.png";
-import PreLogo from '../assets/img/svg/Logo.svg'
 const MyPreloader = () => {
     setTimeout(() => {
         document.getElementById("none").classList.add("d-none");
         document.body.style.overflow = "unset";
     }, 2000);
     return (
-        <section className="perloaderback z_index_1000 position-relative" id="none">
+        <section className="perloaderback z_index_1000 position-relative " id="none">
             <div className="none">
                 <div className="perloaderback text-center d-flex align-items-center justify-content-center start-0 top-0 b w-100 z_index_100 min-vh-100 position-fixed">
                     <img

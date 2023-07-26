@@ -15,7 +15,7 @@ const InvestCoin = () => {
                     <Row className='justify-content-center pt-5'>
                         <Col sm={6} lg={4} xl={3}>
                             <div className="box_1 c_pointer text-center mx-3 mx-sm-0 mx-lg-3 "  data-aos="fade-right">
-                                <img className='pb-1 Social_logo' src={Надежность} alt="Надежность" />
+                                <img className='pb-1 ' src={Надежность} alt="Надежность" />
                                 <h2 className='ff_open fw-bold fs_20 color_252 mt-2 mb-0'>Надежность</h2>
                                 <p className='ff_open fw-normal fs_18 color_222 Para_2 mx-auto pt-3'>Slate helps you see how
                                     many more days you need
@@ -25,7 +25,7 @@ const InvestCoin = () => {
                         </Col>
                         <Col sm={6} lg={4} xl={3}>
                             <div className="box_1 c_pointer text-center mx-3 my-4 mx-sm-0 mt-sm-0 mx-lg-3 "  data-aos="zoom-in">
-                                <img className='pb-1 Social_logo2' src={Опыт} alt="Опыт" />
+                                <img className='pb-1 2' src={Опыт} alt="Опыт" />
                                 <h2 className='ff_open fw-bold fs_20 color_252 mt-2 mb-0'>Опыт</h2>
                                 <p className='ff_open fw-normal fs_18 color_222 Para_2 mx-auto pt-3'>Slate helps you see how
                                     many more days you need
@@ -35,7 +35,7 @@ const InvestCoin = () => {
                         </Col>
                         <Col sm={6} lg={4} xl={3}>
                             <div className="box_1 c_pointer text-center mx-3 mx-sm-0 mt-md-4 mt-lg-0 mx-lg-3 "  data-aos="fade-left">
-                                <img className='pb-1 Social_logo' src={Прозрачность} alt="Прозрачность" />
+                                <img className='pb-1 ' src={Прозрачность} alt="Прозрачность" />
                                 <h2 className='ff_open fw-bold fs_20 color_252 mt-2 mb-0'>Прозрачность</h2>
                                 <p className='ff_open fw-normal fs_18 color_222 Para_2 mx-auto pt-3'>Slate helps you see how
                                     many more days you need

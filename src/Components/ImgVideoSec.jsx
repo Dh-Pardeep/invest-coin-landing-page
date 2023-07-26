@@ -18,13 +18,13 @@ const ImgVideoSec = () => {
                   <div className='py-3 px-sm-2 px-md-3 position-relative' data-aos="zoom-out-up">
                     <img className='w-100 Girl_img h_343 pic_scale c_pointer ImgVideo' src={GirlOne} alt="GirlOne" />
                     <div className="PlayBtnTwo position-absolute GirlOne d-flex justify-content-center align-items-center">
-                      <img className="PlayImgTwo w-100 mt-0 ms-2"  src={PlayImg2} alt="PlayImg" />
+                    <Link target='_blank' className='Social_youtube' to={"https://www.youtube.com/shorts/nPlTUGPK25I"}>  <img className="PlayImgTwo w-100 mt-0 ms-1"  src={PlayImg2} alt="PlayImg" /></Link>
                     </div>
                   </div>
                   <div className='py-3 px-sm-2 px-md-3 position-relative mt-sm-5 mt-lg-0  mt-xl-5'data-aos="zoom-out-up">
                     <img className='w-100 Girl_img h_343 pic_scale c_pointer ImgVideo' src={GirlTwo} alt="GirlTwo" />
                     <div className="PlayBtnTwo position-absolute GirlTwo d-flex justify-content-center align-items-center">
-                      <img className="PlayImgTwo w-100 mt-0 ms-2"  src={PlayImg2} alt="PlayImg" />
+                    <Link target='_blank' className='Social_youtube' to={"https://www.youtube.com/shorts/nPlTUGPK25I"}>  <img className="PlayImgTwo w-100 mt-0 ms-1"  src={PlayImg2} alt="PlayImg" /></Link>
                     </div>
                   </div>
                 </div>

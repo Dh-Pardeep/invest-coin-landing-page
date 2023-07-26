@@ -9,19 +9,19 @@ const MyHeroSection = () => {
         <section className='Bg_image_top'>
              <MyNavBar />
             <Container>
-                <Row className='justify-content-end mt-xl-5' data-aos="fade-left">
+                <Row className='justify-content-end mt-xl-5' data-aos="fade-left" data-aos-delay="1700">
                     <Col sm={12} md={8} lg={7} xl={6} className='mt-md-3 mt-lg-4 mt-xl-5'  >
                         <div className='pt-5 mt-4 mt-sm-5'>
-                            <h2 className='ff_open fw-normal fs_28 color_809 text_uppercase' data-aos="flip-right">Лучший проект</h2>
-                            <h1 className='fs_75 HeroHeading ff_open fw_800 color_white text_uppercase my-3 ' data-aos="flip-right">КPипто
-                                <span className='d-inline-block fw-bold color_809' data-aos="flip-right">Инвестиции</span></h1>
+                            <h2 className='ff_open fw-normal fs_28 color_809 text_uppercase' data-aos="flip-right" data-aos-delay="1700">Лучший проект</h2>
+                            <h1 className='fs_75 HeroHeading ff_open fw_800 color_white text_uppercase my-3 ' data-aos="flip-right" data-aos-delay="1700">КPипто
+                                <span className='d-inline-block fw-bold color_809' data-aos="flip-right" data-aos-delay="1700">Инвестиции</span></h1>
                             <p className='ff_open fs_24 fw_normal color_white mb-4 pb-3'>Международный проект инвестиции в криптовалюту и не только. Мы заработаем если вы заработаете!</p>
                             <div className='mb-5 d-flex flex-column flex-sm-row'>
                                 <div>
-                                    <Link data-aos="flip-left" className=' fw-bold ff_open fs_20 d-inline-block Btn_1 btn_1_hover'>Присоединиться</Link>
+                                    <Link data-aos="flip-left" className=' fw-bold ff_open fs_20 d-inline-block Btn_1 btn_1_hover masterbtn'>Присоединиться</Link>
                                 </div>
                                 <div className='ms-lg-2'>
-                                    <Link data-aos="flip-left" className=' fw-bold ff_open fs_20 color_252 d-inline-block Btn_2 mt-3 mt-sm-0 ms-sm-4 '>Подробнее</Link>
+                                    <Link data-aos="flip-left" className=' fw-bold ff_open fs_20  d-inline-block Btn_2 mt-3 mt-sm-0 ms-sm-4 '>Подробнее</Link>
                                 </div>
                             </div>
                             <div className='d-flex flex-column flex-sm-row mb-5'>
