@@ -199,13 +199,13 @@ body{
   align-items: center;
 }
 
-.SliderDownLine {
+.liDownLine {
   max-width: 670px;
   height: 2px;
   background-color: var(--color-252);
 }
 
-.slick-dots li button:before {
+.np-dots li button:before {
   color: #1A74C7 !important;
   font-size: 14px !important;
   opacity: unset !important;
